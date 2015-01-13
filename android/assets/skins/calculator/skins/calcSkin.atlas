@@ -1,0 +1,146 @@
+
+calcSkin.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+baseTitleBkgrnd
+  rotate: false
+  xy: 606, 911
+  size: 200, 50
+  orig: 200, 50
+  offset: 0, 0
+  index: -1
+calcBackground
+  rotate: false
+  xy: 2, 218
+  size: 480, 800
+  orig: 480, 800
+  offset: 0, 0
+  index: -1
+calcsBckgrnd
+  rotate: false
+  xy: 484, 532
+  size: 120, 486
+  orig: 120, 486
+  offset: 0, 0
+  index: -1
+charFieldBckgrnd
+  rotate: false
+  xy: 606, 780
+  size: 200, 25
+  orig: 200, 25
+  offset: 0, 0
+  index: -1
+cursor
+  rotate: false
+  xy: 1005, 998
+  size: 2, 20
+  orig: 2, 20
+  offset: 0, 0
+  index: -1
+flavButtonDown
+  rotate: false
+  xy: 808, 963
+  size: 195, 55
+  orig: 195, 55
+  offset: 0, 0
+  index: -1
+flavButtonUp
+  rotate: false
+  xy: 606, 963
+  size: 200, 55
+  orig: 200, 55
+  offset: 0, 0
+  index: -1
+flavorBckgrnd
+  rotate: false
+  xy: 2, 66
+  size: 480, 150
+  orig: 480, 150
+  offset: 0, 0
+  index: -1
+flavorTitleBkgrnd
+  rotate: false
+  xy: 606, 859
+  size: 200, 50
+  orig: 200, 50
+  offset: 0, 0
+  index: -1
+flavorVKnob
+  rotate: false
+  xy: 2, 2
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+flavorVScroll
+  rotate: false
+  xy: 484, 380
+  size: 10, 150
+  orig: 10, 150
+  offset: 0, 0
+  index: -1
+goalTitleBkgrnd
+  rotate: false
+  xy: 606, 807
+  size: 200, 50
+  orig: 200, 50
+  offset: 0, 0
+  index: -1
+labelBckgrnd
+  rotate: false
+  xy: 606, 674
+  size: 100, 25
+  orig: 100, 25
+  offset: 0, 0
+  index: -1
+menuButtonDown
+  rotate: false
+  xy: 606, 701
+  size: 160, 50
+  orig: 160, 50
+  offset: 0, 0
+  index: -1
+menuButtonUp
+  rotate: false
+  xy: 808, 911
+  size: 169, 50
+  orig: 169, 50
+  offset: 0, 0
+  index: -1
+nameFieldBckgrnd
+  rotate: false
+  xy: 606, 753
+  size: 200, 25
+  orig: 200, 25
+  offset: 0, 0
+  index: -1
+numFieldBckgrnd
+  rotate: false
+  xy: 808, 862
+  size: 100, 25
+  orig: 100, 25
+  offset: 0, 0
+  index: -1
+selectionName
+  rotate: false
+  xy: 808, 889
+  size: 155, 20
+  orig: 155, 20
+  offset: 0, 0
+  index: -1
+selectionNum
+  rotate: false
+  xy: 496, 510
+  size: 80, 20
+  orig: 80, 20
+  offset: 0, 0
+  index: -1
+titleBackground
+  rotate: false
+  xy: 2, 14
+  size: 480, 50
+  orig: 480, 50
+  offset: 0, 0
+  index: -1
