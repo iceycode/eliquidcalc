@@ -31,9 +31,13 @@
     titleTextField: {selection: selectionName, background: titleBackground, font: default-font, cursor: cursor},
     numTextField: {selection: selectionNum, background: numFieldBckgrnd, font: default-font, fontColor: black, cursor: cursor},
     nameTextField: { selection: selectionNum, background: numFieldBckgrnd, font: default-font, fontColor: black, cursor: cursor}
-  }
+  },
   com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
       default: { checkboxOn: check-on, checkboxOff: check-off, font: default-font, fontColor: black }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+    default: { titleFont: default-font, background: defaultDialog, titleFontColor: black},
+    load: { titleFont: default-font, background: loadWindow, titleFontColor: black }
   }
 //  com.badlogic.gdx.scenes.scene2d.ui.TextArea$TextAreaStyle: {
 //  titleTextArea: {selection: selectionName, background: titleBackground, font: default-font, cursor: cursor},
@@ -51,10 +55,7 @@
 //    default-vertical: { handle: default-splitpane-vertical },
 //    default-horizontal: { handle: default-splitpane }
 //  },
-//    com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
-//    default: { titleFont: default-font, background: default-window, titleFontColor: white },
-//    dialog: { titleFont: default-font, background: default-window, titleFontColor: white, stageBackground: dialogDim }
-//  },
+,
 //    com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
 //    default-horizontal: { background: default-slider, knob: default-slider-knob },
 //    default-vertical: { background: default-slider, knob: default-round-large }
@@ -63,9 +64,7 @@
 //    default-horizontal: { background: default-slider, knob: default-slider-knob },
 //    default-vertical: { background: default-slider, knob: default-round-large }
 //  },
-  //  com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
-  //      dialogDim: { name: white, color: { r: 0, g: 0, b: 0, a: 0.45 } }
-  //  },
+
   //  com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
   //  default: { down: default-round-down, up: default-round },
   //  toggle: { down: default-round-down, checked: default-round-down, up: default-round }

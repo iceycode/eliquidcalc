@@ -14,6 +14,8 @@ public class MainApp implements ApplicationListener {
 	public SpriteBatch batch;
 	BitmapFont font;
 	CalculatorScreen calcScreen;
+    
+    //public static SaveManager saveManager = new SaveManager(true);
 
 	@Override
 	public void create () {

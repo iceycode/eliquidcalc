@@ -6,7 +6,7 @@ filter: Nearest,Nearest
 repeat: none
 baseTitleBkgrnd
   rotate: false
-  xy: 606, 911
+  xy: 606, 637
   size: 200, 50
   orig: 200, 50
   offset: 0, 0
@@ -27,28 +27,56 @@ calcsBckgrnd
   index: -1
 charFieldBckgrnd
   rotate: false
-  xy: 606, 780
+  xy: 484, 449
   size: 200, 25
   orig: 200, 25
   offset: 0, 0
   index: -1
+check-off
+  rotate: false
+  xy: 820, 801
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+check-on
+  rotate: false
+  xy: 2, 2
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
 cursor
   rotate: false
-  xy: 1005, 998
+  xy: 803, 615
   size: 2, 20
   orig: 2, 20
   offset: 0, 0
   index: -1
+defaultDialog
+  rotate: false
+  xy: 606, 746
+  size: 200, 70
+  orig: 200, 70
+  offset: 0, 0
+  index: -1
+defaultLabel
+  rotate: false
+  xy: 484, 395
+  size: 80, 25
+  orig: 80, 25
+  offset: 0, 0
+  index: -1
 flavButtonDown
   rotate: false
-  xy: 808, 963
+  xy: 606, 580
   size: 195, 55
   orig: 195, 55
   offset: 0, 0
   index: -1
 flavButtonUp
   rotate: false
-  xy: 606, 963
+  xy: 606, 689
   size: 200, 55
   orig: 200, 55
   offset: 0, 0
@@ -62,77 +90,84 @@ flavorBckgrnd
   index: -1
 flavorTitleBkgrnd
   rotate: false
-  xy: 606, 859
+  xy: 606, 528
   size: 200, 50
   orig: 200, 50
   offset: 0, 0
   index: -1
 flavorVKnob
   rotate: false
-  xy: 2, 2
+  xy: 1009, 1008
   size: 10, 10
   orig: 10, 10
   offset: 0, 0
   index: -1
 flavorVScroll
   rotate: false
-  xy: 484, 380
+  xy: 808, 666
   size: 10, 150
   orig: 10, 150
   offset: 0, 0
   index: -1
 goalTitleBkgrnd
   rotate: false
-  xy: 606, 807
+  xy: 484, 476
   size: 200, 50
   orig: 200, 50
   offset: 0, 0
   index: -1
 labelBckgrnd
   rotate: false
-  xy: 606, 674
+  xy: 838, 867
   size: 100, 25
   orig: 100, 25
   offset: 0, 0
   index: -1
+loadWindow
+  rotate: false
+  xy: 606, 818
+  size: 230, 200
+  orig: 230, 200
+  offset: 0, 0
+  index: -1
 menuButtonDown
   rotate: false
-  xy: 606, 701
+  xy: 838, 916
   size: 160, 50
   orig: 160, 50
   offset: 0, 0
   index: -1
 menuButtonUp
   rotate: false
-  xy: 808, 911
+  xy: 838, 968
   size: 169, 50
   orig: 169, 50
   offset: 0, 0
   index: -1
 nameFieldBckgrnd
   rotate: false
-  xy: 606, 753
+  xy: 484, 422
   size: 200, 25
   orig: 200, 25
   offset: 0, 0
   index: -1
 numFieldBckgrnd
   rotate: false
-  xy: 808, 862
+  xy: 686, 501
   size: 100, 25
   orig: 100, 25
   offset: 0, 0
   index: -1
 selectionName
   rotate: false
-  xy: 808, 889
+  xy: 838, 894
   size: 155, 20
   orig: 155, 20
   offset: 0, 0
   index: -1
 selectionNum
   rotate: false
-  xy: 496, 510
+  xy: 838, 845
   size: 80, 20
   orig: 80, 20
   offset: 0, 0
