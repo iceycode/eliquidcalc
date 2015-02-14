@@ -2,14 +2,19 @@
 // contains skin for table widgets for calculator
 {
   com.badlogic.gdx.graphics.g2d.BitmapFont: {
-    neometric-font: { file: fonts/neometric-med.fnt },
-    default-font: { file: fonts/tahoma-med.fnt }
+    light-font: { file: fonts/opensans_light_med.fnt },
+    default-font: { file: fonts/opensans_bold_med.fnt }
   },
   com.badlogic.gdx.graphics.Color: {
     green: { a: 1, b: 0, g: 1, r: 0 },
     white: { a: 1, b: 1, g: 1, r: 1 },
     red: { a: 1, b: 0, g: 0, r: 1 },
-    black: { a: 1, b: 0, g: 0, r: 0 }
+    black: { a: 1, b: 0, g: 0, r: 0 },
+    blue : { a: .8, b: 1, g: 0, r : 0} //for textfield messageFontColor
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+    default: { up: back-up, down: back-down},
+    delete: {up: deleteButton, down: deleteButton}
   },
   com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
     default: {down: menuButtonDown, up: menuButtonUp, font: default-font, fontColor: black},
@@ -25,12 +30,16 @@
     goalLabel: {font: default-font, fontColor: black, background: goalTitleBkgrnd},
     baseLabel: {font: default-font, fontColor: black, background: baseTitleBkgrnd},
     flavorLabel: {font: default-font, fontColor: black, background: flavorBckgrnd},
-    calcsLabel: {font: default-font, fontColor: black, background: calcsBckgrnd}
+    calcsLabel: {font: default-font, fontColor: black, background: calcsBckgrnd},
+    supplyLabel: {font: default-font, fontColor: red, background: calcsBckgrnd}
   },
   com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
-    titleTextField: {selection: selectionName, background: titleBackground, font: default-font, cursor: cursor},
-    numTextField: {selection: selectionNum, background: numFieldBckgrnd, font: default-font, fontColor: black, cursor: cursor},
-    nameTextField: { selection: selectionNum, background: numFieldBckgrnd, font: default-font, fontColor: black, cursor: cursor}
+    titleTextField: {selection: selectionName, background: titleBackground, font: default-font, fontColor: black, cursor: cursor,
+      messageFont: light-font, messageFontColor: blue},
+    numTextField: {selection: selectionNum, background: numFieldBckgrnd, font: default-font, fontColor: black, cursor: cursor,
+      messageFont: light-font, messageFontColor: blue},
+    nameTextField: { selection: selectionNum, background: numFieldBckgrnd, font: default-font, fontColor: black, cursor: cursor,
+      messageFont: light-font, messageFontColor: blue}
   },
   com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
       default: { checkboxOn: check-on, checkboxOff: check-off, font: default-font, fontColor: black }
@@ -38,7 +47,18 @@
   com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
     default: { titleFont: default-font, background: defaultDialog, titleFontColor: black},
     load: { titleFont: default-font, background: loadWindow, titleFontColor: black }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+    default-horizontal: { background: slider, knob: sliderKnob } //need to put -horizontal or -vertical identifier
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+    default: { font: default-font, fontColor: black, background: selectBox-back, scrollStyle: default,
+      listStyle: { font: default-font, selection: selectBox-selection}}
   }
+  com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+    default: { fontColorUnselected: blue, selection: selectBox-selection, fontColorSelected: black, font: default-font }
+  }
+  
 //  com.badlogic.gdx.scenes.scene2d.ui.TextArea$TextAreaStyle: {
 //  titleTextArea: {selection: selectionName, background: titleBackground, font: default-font, cursor: cursor},
 //  numTextArea: {selection: selectionNum, background: numFieldBckgrnd, font: default-font, fontColor: black, cursor: cursor},
@@ -55,20 +75,16 @@
 //    default-vertical: { handle: default-splitpane-vertical },
 //    default-horizontal: { handle: default-splitpane }
 //  },
-,
+
 //    com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
 //    default-horizontal: { background: default-slider, knob: default-slider-knob },
 //    default-vertical: { background: default-slider, knob: default-round-large }
 //  },
-//    com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
-//    default-horizontal: { background: default-slider, knob: default-slider-knob },
-//    default-vertical: { background: default-slider, knob: default-round-large }
-//  },
 
-  //  com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
-  //  default: { down: default-round-down, up: default-round },
-  //  toggle: { down: default-round-down, checked: default-round-down, up: default-round }
-  //  },
+//  com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+//  default-horizontal: { background: default-slider, knob: default-slider-knob },
+//  default-vertical: { background: default-slider, knob: default-round-large }
+// },
 
 //    com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
 //    default: { checkboxOn: check-on, checkboxOff: check-off, font: default-font, fontColor: white }

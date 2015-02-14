@@ -1,1 +1,24 @@
-ewoiZGF0YSI6IHsKCSJOZXcgUmVjaXBlIjogewoJCSJjbGFzcyI6ICJjb20uaWNleS5hcHBzLmRhdGEuQ2FsY0RhdGEkUmVjaXBlRGF0YSIKCX0KfQp9
+{
+"data": {
+	"R1": {
+		"class": "com.icey.apps.utils.SaveManager$RecipeData",
+		"recipeName": "R1",
+		"amountDesired": 12,
+		"strengthDesired": 20,
+		"desiredPercents": [ 30, 70, 0 ],
+		"base": {
+			"basePercents": [ 50, 50 ],
+			"baseStrength": 100
+		},
+		"flavors": [
+			{
+				"name": "Caramel",
+				"type": 1,
+				"percent": 12,
+				"amount": 1.44
+			}
+		],
+		"finalMills": [ 2.4, 5.76, 0, 2.4, 1.44, 0 ]
+	}
+}
+}
